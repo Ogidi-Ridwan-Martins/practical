@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+article{
+    border: 2px solid green;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+}
+.tab1{
+border: 2px solid blue;
+border-collapse: collapse;
+text-align: left;
+padding: 10px;
+}
+.tth{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.tab1 tr, .tab1 td{
+    border: 1px solid blue;
+    padding-block-end: 3;
+}
+.tab2{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    padding: 3;
+}
+.tab2 tr, .tab2 td, .tab2 th{
+    border: 1px solid blue;
+}
+.tab3{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 100;
+}
+.tab3 tr, .tab3 td{
+    border: 1px solid blue;
+}
+table{
+    width: 100%;
+}

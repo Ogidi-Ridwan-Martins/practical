@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    padding: 10px;
+}
+#full{
+    border: 3px solid green;
+    color: green;
+    background-color: red;
+}
+header>ul>li>a:last-child{
+    color: red;
+}
+header>div>p:nth-of-type(2){
+    color: blue;
+}
